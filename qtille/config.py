@@ -159,7 +159,7 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-        wallpaper='~/.config/qtile/wallpapers/cherry_blossom.jpeg',
+        wallpaper='',
         wallpaper_mode='stretch',
         top=bar.Bar(
             [
@@ -194,7 +194,7 @@ screens = [
         # x11_drag_polling_rate = 60,
     ),
     Screen(
-        wallpaper='~/.config/qtile/wallpapers/wallpaper.png',
+        wallpaper='',
         wallpaper_mode='stretch',
         top=bar.Bar(
             [
