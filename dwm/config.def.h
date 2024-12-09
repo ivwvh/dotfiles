@@ -20,12 +20,11 @@ static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#DAC0F9";
 static const char col_gray4[]       = "#EADBFB";
 static const char col_cyan[]        = "#26253D";
-/*static const char *colors[][3]      = {
-	               fg         bg         border   
+static const char *colors[][3]      = {
+	              /*fg         bg         border*/   
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-};*/
-#include "/home/ivwvh/.cache/wal/colors-wal-dwm.h"
+};
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
